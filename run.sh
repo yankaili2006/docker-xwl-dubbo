@@ -12,4 +12,6 @@ NEXUS="http://101.200.176.31:8181/nexus/content/repositories/snapshots/$JAR_PATH
 
 wget $NEXUS -O $JAR
 
+mv $JAR app.jar
+
 #java -jar $JAR | tee log.txt
