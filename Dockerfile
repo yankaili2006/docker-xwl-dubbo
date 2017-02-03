@@ -15,4 +15,4 @@ ADD run.sh $APP_HOME/run.sh
 
 RUN /bin/sh -c $APP_HOME/run.sh
 
-CMD ["java","-jar","app.jar","-a","zxtd"]
+CMD ["java","-jar","app.jar"]
