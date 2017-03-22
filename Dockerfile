@@ -9,7 +9,7 @@ WORKDIR $APP_HOME
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 #update application timezone
-RUN echo "Asia/Shanghai" >> /etc/timezone
+RUN echo "Asia/Shanghai" > /etc/timezone
 
 #COPY /data/.m2/repository/com/xunwulian/xwl-dubbo/1.0-SNAPSHOT/xwl-dubbo-1.0-SNAPSHOT-jar-with-dependencies.jar $APP_HOME/app.jar
 
